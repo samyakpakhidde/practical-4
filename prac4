@@ -1,39 +1,50 @@
-<!DOCTYPE html>
 <html>
-<head>
-    <title>Subjects Table</title>
-</head>
-<body>
-
-<h2>subject Name</h2>
-
-<table border="1">
-    <tr>
-        <th>Sr No</th>
-        <th>subject Name</th>
-    </tr>
-    
-    <tr>
-        <td>1</td>
-        <td>English</td>
-    </tr>
-    
-    <tr>
-        <td>2</td>
-        <td>Mathematics</td>
-    </tr>
-    
-    <tr>
-        <td>3</td>
-        <td>Marathi</td>
-    </tr>
-    
-    <tr>
-        <td>4</td>
-        <td>History</td>
-    </tr>
-
+	<title> PRACTICAL 4 </title>
+	<body>
+	<table border = "2" cellspacing = "2" cellpadding = "2" >
+		<tr>
+		<th>Day and Time</th>
+		<th> 7 to 8 </th>
+		<th> 8 to 9 </th>
+		<th> 9 to 10 </th>
+		<th> 9 to 12:30 </th>
+		</tr>
+		<tr>
+		<th> monday </th>
+		<td> smp </td>
+		<td> chem </td>
+		<td rowspan = "6" > dinner </td>
+		<td> social media </td>
+		</tr>
+		<tr>
+		<th> tuesday </th>
+		<td> chem </td>
+		<td> maths 2 </td>
+		<td> smp </td>
+		</tr>
+		<tr>
+		<th> wedmesday </th>
+		<td> maths </td>
+		<td> ee </td>
+		<td> smp </td>
+		</tr> 		
+		<th> thursday </th>
+		<td> ee </td>
+		<td> maths </td>
+		<td> smp </td>
+		</tr>
+		<tr>
+		<th> friday </th>
+		<td> assignment </td>
+		<td> maths </td>
+		<td> smp </td>
+		</tr>
+		<tr>
+		<th> saturday </th>
+		<td> brunch </td>
+		<td> mobile </td>
+		<td> maths </td>
+		</tr>
 </table>
-
 </body>
 </html>
